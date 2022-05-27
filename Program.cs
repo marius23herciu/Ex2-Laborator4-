@@ -17,9 +17,9 @@ namespace Ex2_Laborator4_
 
             Console.WriteLine("Introduceti numarul de matrici din matricea 3d: ");
             int n = int.Parse(Console.ReadLine());
-            Console.WriteLine("Introduceti numarul de linii: ");
+            Console.WriteLine("Introduceti numarul de linii pentru fiecare matrice: ");
             int m = int.Parse(Console.ReadLine());
-            Console.WriteLine("Introduceti numarul de coloane: ");
+            Console.WriteLine("Introduceti numarul de coloane pentru fiecare matrice: ");
             int k = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Introduceti " + n * m * k + " numere:");
